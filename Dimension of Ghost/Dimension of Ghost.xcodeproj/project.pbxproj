@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8BD2F282C88613D00D27730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2F272C88613D00D27730 /* AppDelegate.swift */; };
+		C8BD2F2A2C88613D00D27730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2F292C88613D00D27730 /* SceneDelegate.swift */; };
+		C8BD2F2C2C88613D00D27730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2F2B2C88613D00D27730 /* ViewController.swift */; };
+		C8BD2F2F2C88613D00D27730 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C8BD2F2E2C88613D00D27730 /* Base */; };
+		C8BD2F312C88613E00D27730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BD2F302C88613E00D27730 /* Assets.xcassets */; };
+		C8BD2F342C88613E00D27730 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C8BD2F332C88613E00D27730 /* Base */; };
+		C8BD2F3F2C88613E00D27730 /* Dimension_of_GhostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2F3E2C88613E00D27730 /* Dimension_of_GhostTests.swift */; };
+		C8BD2F492C88613E00D27730 /* Dimension_of_GhostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2F482C88613E00D27730 /* Dimension_of_GhostUITests.swift */; };
+		C8BD2F4B2C88613E00D27730 /* Dimension_of_GhostUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD2F4A2C88613E00D27730 /* Dimension_of_GhostUITestsLaunchTests.swift */; };
+		C8BD2F592C88617400D27730 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BD2F582C88617400D27730 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8BD2F3B2C88613E00D27730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BD2F1C2C88613D00D27730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8BD2F232C88613D00D27730;
+			remoteInfo = "Dimension of Ghost";
+		};
+		C8BD2F452C88613E00D27730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8BD2F1C2C88613D00D27730 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8BD2F232C88613D00D27730;
+			remoteInfo = "Dimension of Ghost";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8BD2F242C88613D00D27730 /* Dimension of Ghost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dimension of Ghost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BD2F272C88613D00D27730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8BD2F292C88613D00D27730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8BD2F2B2C88613D00D27730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8BD2F2E2C88613D00D27730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8BD2F302C88613E00D27730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8BD2F332C88613E00D27730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8BD2F352C88613E00D27730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8BD2F3A2C88613E00D27730 /* Dimension of GhostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dimension of GhostTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BD2F3E2C88613E00D27730 /* Dimension_of_GhostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension_of_GhostTests.swift; sourceTree = "<group>"; };
+		C8BD2F442C88613E00D27730 /* Dimension of GhostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dimension of GhostUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BD2F482C88613E00D27730 /* Dimension_of_GhostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension_of_GhostUITests.swift; sourceTree = "<group>"; };
+		C8BD2F4A2C88613E00D27730 /* Dimension_of_GhostUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension_of_GhostUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8BD2F582C88617400D27730 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8BD2F212C88613D00D27730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BD2F592C88617400D27730 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BD2F372C88613E00D27730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BD2F412C88613E00D27730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8BD2F1B2C88613D00D27730 = {
+			isa = PBXGroup;
+			children = (
+				C8BD2F262C88613D00D27730 /* Dimension of Ghost */,
+				C8BD2F3D2C88613E00D27730 /* Dimension of GhostTests */,
+				C8BD2F472C88613E00D27730 /* Dimension of GhostUITests */,
+				C8BD2F252C88613D00D27730 /* Products */,
+				C8BD2F572C88617400D27730 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8BD2F252C88613D00D27730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD2F242C88613D00D27730 /* Dimension of Ghost.app */,
+				C8BD2F3A2C88613E00D27730 /* Dimension of GhostTests.xctest */,
+				C8BD2F442C88613E00D27730 /* Dimension of GhostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8BD2F262C88613D00D27730 /* Dimension of Ghost */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD2F272C88613D00D27730 /* AppDelegate.swift */,
+				C8BD2F292C88613D00D27730 /* SceneDelegate.swift */,
+				C8BD2F2B2C88613D00D27730 /* ViewController.swift */,
+				C8BD2F2D2C88613D00D27730 /* Main.storyboard */,
+				C8BD2F302C88613E00D27730 /* Assets.xcassets */,
+				C8BD2F322C88613E00D27730 /* LaunchScreen.storyboard */,
+				C8BD2F352C88613E00D27730 /* Info.plist */,
+			);
+			path = "Dimension of Ghost";
+			sourceTree = "<group>";
+		};
+		C8BD2F3D2C88613E00D27730 /* Dimension of GhostTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD2F3E2C88613E00D27730 /* Dimension_of_GhostTests.swift */,
+			);
+			path = "Dimension of GhostTests";
+			sourceTree = "<group>";
+		};
+		C8BD2F472C88613E00D27730 /* Dimension of GhostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD2F482C88613E00D27730 /* Dimension_of_GhostUITests.swift */,
+				C8BD2F4A2C88613E00D27730 /* Dimension_of_GhostUITestsLaunchTests.swift */,
+			);
+			path = "Dimension of GhostUITests";
+			sourceTree = "<group>";
+		};
+		C8BD2F572C88617400D27730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD2F582C88617400D27730 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8BD2F232C88613D00D27730 /* Dimension of Ghost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8BD2F4E2C88613E00D27730 /* Build configuration list for PBXNativeTarget "Dimension of Ghost" */;
+			buildPhases = (
+				C8BD2F202C88613D00D27730 /* Sources */,
+				C8BD2F212C88613D00D27730 /* Frameworks */,
+				C8BD2F222C88613D00D27730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dimension of Ghost";
+			productName = "Dimension of Ghost";
+			productReference = C8BD2F242C88613D00D27730 /* Dimension of Ghost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8BD2F392C88613E00D27730 /* Dimension of GhostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8BD2F512C88613E00D27730 /* Build configuration list for PBXNativeTarget "Dimension of GhostTests" */;
+			buildPhases = (
+				C8BD2F362C88613E00D27730 /* Sources */,
+				C8BD2F372C88613E00D27730 /* Frameworks */,
+				C8BD2F382C88613E00D27730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8BD2F3C2C88613E00D27730 /* PBXTargetDependency */,
+			);
+			name = "Dimension of GhostTests";
+			productName = "Dimension of GhostTests";
+			productReference = C8BD2F3A2C88613E00D27730 /* Dimension of GhostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8BD2F432C88613E00D27730 /* Dimension of GhostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8BD2F542C88613E00D27730 /* Build configuration list for PBXNativeTarget "Dimension of GhostUITests" */;
+			buildPhases = (
+				C8BD2F402C88613E00D27730 /* Sources */,
+				C8BD2F412C88613E00D27730 /* Frameworks */,
+				C8BD2F422C88613E00D27730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8BD2F462C88613E00D27730 /* PBXTargetDependency */,
+			);
+			name = "Dimension of GhostUITests";
+			productName = "Dimension of GhostUITests";
+			productReference = C8BD2F442C88613E00D27730 /* Dimension of GhostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8BD2F1C2C88613D00D27730 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C8BD2F232C88613D00D27730 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C8BD2F392C88613E00D27730 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C8BD2F232C88613D00D27730;
+					};
+					C8BD2F432C88613E00D27730 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C8BD2F232C88613D00D27730;
+					};
+				};
+			};
+			buildConfigurationList = C8BD2F1F2C88613D00D27730 /* Build configuration list for PBXProject "Dimension of Ghost" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8BD2F1B2C88613D00D27730;
+			productRefGroup = C8BD2F252C88613D00D27730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8BD2F232C88613D00D27730 /* Dimension of Ghost */,
+				C8BD2F392C88613E00D27730 /* Dimension of GhostTests */,
+				C8BD2F432C88613E00D27730 /* Dimension of GhostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8BD2F222C88613D00D27730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BD2F312C88613E00D27730 /* Assets.xcassets in Resources */,
+				C8BD2F342C88613E00D27730 /* Base in Resources */,
+				C8BD2F2F2C88613D00D27730 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BD2F382C88613E00D27730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BD2F422C88613E00D27730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8BD2F202C88613D00D27730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BD2F2C2C88613D00D27730 /* ViewController.swift in Sources */,
+				C8BD2F282C88613D00D27730 /* AppDelegate.swift in Sources */,
+				C8BD2F2A2C88613D00D27730 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BD2F362C88613E00D27730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BD2F3F2C88613E00D27730 /* Dimension_of_GhostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8BD2F402C88613E00D27730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BD2F4B2C88613E00D27730 /* Dimension_of_GhostUITestsLaunchTests.swift in Sources */,
+				C8BD2F492C88613E00D27730 /* Dimension_of_GhostUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8BD2F3C2C88613E00D27730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8BD2F232C88613D00D27730 /* Dimension of Ghost */;
+			targetProxy = C8BD2F3B2C88613E00D27730 /* PBXContainerItemProxy */;
+		};
+		C8BD2F462C88613E00D27730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8BD2F232C88613D00D27730 /* Dimension of Ghost */;
+			targetProxy = C8BD2F452C88613E00D27730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8BD2F2D2C88613D00D27730 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8BD2F2E2C88613D00D27730 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8BD2F322C88613E00D27730 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8BD2F332C88613E00D27730 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8BD2F4C2C88613E00D27730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8BD2F4D2C88613E00D27730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8BD2F4F2C88613E00D27730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dimension of Ghost/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-Ghost";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8BD2F502C88613E00D27730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dimension of Ghost/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-Ghost";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8BD2F522C88613E00D27730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-GhostTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dimension of Ghost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dimension of Ghost";
+			};
+			name = Debug;
+		};
+		C8BD2F532C88613E00D27730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-GhostTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dimension of Ghost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dimension of Ghost";
+			};
+			name = Release;
+		};
+		C8BD2F552C88613E00D27730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-GhostUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dimension of Ghost";
+			};
+			name = Debug;
+		};
+		C8BD2F562C88613E00D27730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-GhostUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dimension of Ghost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8BD2F1F2C88613D00D27730 /* Build configuration list for PBXProject "Dimension of Ghost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BD2F4C2C88613E00D27730 /* Debug */,
+				C8BD2F4D2C88613E00D27730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8BD2F4E2C88613E00D27730 /* Build configuration list for PBXNativeTarget "Dimension of Ghost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BD2F4F2C88613E00D27730 /* Debug */,
+				C8BD2F502C88613E00D27730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8BD2F512C88613E00D27730 /* Build configuration list for PBXNativeTarget "Dimension of GhostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BD2F522C88613E00D27730 /* Debug */,
+				C8BD2F532C88613E00D27730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8BD2F542C88613E00D27730 /* Build configuration list for PBXNativeTarget "Dimension of GhostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BD2F552C88613E00D27730 /* Debug */,
+				C8BD2F562C88613E00D27730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8BD2F1C2C88613D00D27730 /* Project object */;
+}
