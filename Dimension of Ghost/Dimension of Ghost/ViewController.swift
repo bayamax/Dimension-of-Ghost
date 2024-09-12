@@ -7,8 +7,10 @@
 
 import UIKit
 import CoreLocation
+import MapKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
+    @IBOutlet var mapView: MKMapView!  // この行を追加
     var locationManager: CLLocationManager!
 
     override func viewDidLoad() {
@@ -18,6 +20,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         locationManager.startUpdatingLocation()  // 位置情報更新を指示
         locationManager.requestWhenInUseAuthorization()
+        
+        mapView.showsUserLocation = true
         // Do any additional setup after loading the view.
     }
     
@@ -26,6 +30,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let latitude = (locations.last?.coordinate.latitude.description)!
         print("[DBG]longitude : " + longitude)
         print("[DBG]latitude : " + latitude)
+        
+        mapView.setCenter((locations.last?.coordinate)!, animated: true)
     }
 
 
