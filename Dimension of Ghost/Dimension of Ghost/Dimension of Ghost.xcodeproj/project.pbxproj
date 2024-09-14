@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C831F7452C956BAE0062CC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831F7442C956BAD0062CC1C /* AppDelegate.swift */; };
+		C831F7472C956C420062CC1C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831F7462C956C420062CC1C /* RegisterView.swift */; };
+		C831F7492C956C550062CC1C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831F7482C956C550062CC1C /* LoginView.swift */; };
+		C831F74B2C956C690062CC1C /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831F74A2C956C690062CC1C /* SessionStore.swift */; };
+		C831F74D2C956CAD0062CC1C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831F74C2C956CAD0062CC1C /* LocationManager.swift */; };
+		C831F75A2C956F470062CC1C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831F7592C956F470062CC1C /* MapView.swift */; };
+		C831F75C2C9570720062CC1C /* RealModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831F75B2C9570720062CC1C /* RealModeView.swift */; };
+		C831F75E2C9570A00062CC1C /* GhostModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C831F75D2C9570A00062CC1C /* GhostModeView.swift */; };
+		C87315CA2C9545AC0067CB66 /* Dimension_of_GhostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87315C92C9545AC0067CB66 /* Dimension_of_GhostApp.swift */; };
+		C87315CC2C9545AC0067CB66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87315CB2C9545AC0067CB66 /* ContentView.swift */; };
+		C87315CE2C9545AD0067CB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87315CD2C9545AD0067CB66 /* Assets.xcassets */; };
+		C87315D12C9545AD0067CB66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C87315D02C9545AD0067CB66 /* Preview Assets.xcassets */; };
+		C87315DB2C9545AD0067CB66 /* Dimension_of_GhostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87315DA2C9545AD0067CB66 /* Dimension_of_GhostTests.swift */; };
+		C87315E52C9545AD0067CB66 /* Dimension_of_GhostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87315E42C9545AD0067CB66 /* Dimension_of_GhostUITests.swift */; };
+		C87315E72C9545AD0067CB66 /* Dimension_of_GhostUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87315E62C9545AD0067CB66 /* Dimension_of_GhostUITestsLaunchTests.swift */; };
+		C87315F42C955AD50067CB66 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C87315F32C955AD50067CB66 /* GoogleService-Info.plist */; };
+		C87315F72C956A280067CB66 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C87315F62C956A280067CB66 /* FirebaseAuth */; };
+		C87315F92C956A280067CB66 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C87315F82C956A280067CB66 /* FirebaseDatabase */; };
+		C87315FB2C956A280067CB66 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C87315FA2C956A280067CB66 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C87315D72C9545AD0067CB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87315BE2C9545AC0067CB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87315C52C9545AC0067CB66;
+			remoteInfo = "Dimension of Ghost";
+		};
+		C87315E12C9545AD0067CB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C87315BE2C9545AC0067CB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87315C52C9545AC0067CB66;
+			remoteInfo = "Dimension of Ghost";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C831F7442C956BAD0062CC1C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C831F7462C956C420062CC1C /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C831F7482C956C550062CC1C /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C831F74A2C956C690062CC1C /* SessionStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		C831F74C2C956CAD0062CC1C /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C831F7592C956F470062CC1C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C831F75B2C9570720062CC1C /* RealModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealModeView.swift; sourceTree = "<group>"; };
+		C831F75D2C9570A00062CC1C /* GhostModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostModeView.swift; sourceTree = "<group>"; };
+		C87315C62C9545AC0067CB66 /* Dimension of Ghost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dimension of Ghost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87315C92C9545AC0067CB66 /* Dimension_of_GhostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension_of_GhostApp.swift; sourceTree = "<group>"; };
+		C87315CB2C9545AC0067CB66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C87315CD2C9545AD0067CB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C87315D02C9545AD0067CB66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C87315D62C9545AD0067CB66 /* Dimension of GhostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dimension of GhostTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87315DA2C9545AD0067CB66 /* Dimension_of_GhostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension_of_GhostTests.swift; sourceTree = "<group>"; };
+		C87315E02C9545AD0067CB66 /* Dimension of GhostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dimension of GhostUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87315E42C9545AD0067CB66 /* Dimension_of_GhostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension_of_GhostUITests.swift; sourceTree = "<group>"; };
+		C87315E62C9545AD0067CB66 /* Dimension_of_GhostUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension_of_GhostUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C87315F32C955AD50067CB66 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C87315C32C9545AC0067CB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87315F92C956A280067CB66 /* FirebaseDatabase in Frameworks */,
+				C87315F72C956A280067CB66 /* FirebaseAuth in Frameworks */,
+				C87315FB2C956A280067CB66 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87315D32C9545AD0067CB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87315DD2C9545AD0067CB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C87315BD2C9545AC0067CB66 = {
+			isa = PBXGroup;
+			children = (
+				C87315F32C955AD50067CB66 /* GoogleService-Info.plist */,
+				C87315C82C9545AC0067CB66 /* Dimension of Ghost */,
+				C87315D92C9545AD0067CB66 /* Dimension of GhostTests */,
+				C87315E32C9545AD0067CB66 /* Dimension of GhostUITests */,
+				C87315C72C9545AC0067CB66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C87315C72C9545AC0067CB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87315C62C9545AC0067CB66 /* Dimension of Ghost.app */,
+				C87315D62C9545AD0067CB66 /* Dimension of GhostTests.xctest */,
+				C87315E02C9545AD0067CB66 /* Dimension of GhostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87315C82C9545AC0067CB66 /* Dimension of Ghost */ = {
+			isa = PBXGroup;
+			children = (
+				C831F7462C956C420062CC1C /* RegisterView.swift */,
+				C831F7442C956BAD0062CC1C /* AppDelegate.swift */,
+				C87315C92C9545AC0067CB66 /* Dimension_of_GhostApp.swift */,
+				C831F74C2C956CAD0062CC1C /* LocationManager.swift */,
+				C831F7482C956C550062CC1C /* LoginView.swift */,
+				C831F75B2C9570720062CC1C /* RealModeView.swift */,
+				C831F75D2C9570A00062CC1C /* GhostModeView.swift */,
+				C831F74A2C956C690062CC1C /* SessionStore.swift */,
+				C831F7592C956F470062CC1C /* MapView.swift */,
+				C87315CB2C9545AC0067CB66 /* ContentView.swift */,
+				C87315CD2C9545AD0067CB66 /* Assets.xcassets */,
+				C87315CF2C9545AD0067CB66 /* Preview Content */,
+			);
+			path = "Dimension of Ghost";
+			sourceTree = "<group>";
+		};
+		C87315CF2C9545AD0067CB66 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C87315D02C9545AD0067CB66 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C87315D92C9545AD0067CB66 /* Dimension of GhostTests */ = {
+			isa = PBXGroup;
+			children = (
+				C87315DA2C9545AD0067CB66 /* Dimension_of_GhostTests.swift */,
+			);
+			path = "Dimension of GhostTests";
+			sourceTree = "<group>";
+		};
+		C87315E32C9545AD0067CB66 /* Dimension of GhostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C87315E42C9545AD0067CB66 /* Dimension_of_GhostUITests.swift */,
+				C87315E62C9545AD0067CB66 /* Dimension_of_GhostUITestsLaunchTests.swift */,
+			);
+			path = "Dimension of GhostUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C87315C52C9545AC0067CB66 /* Dimension of Ghost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87315EA2C9545AD0067CB66 /* Build configuration list for PBXNativeTarget "Dimension of Ghost" */;
+			buildPhases = (
+				C87315C22C9545AC0067CB66 /* Sources */,
+				C87315C32C9545AC0067CB66 /* Frameworks */,
+				C87315C42C9545AC0067CB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dimension of Ghost";
+			packageProductDependencies = (
+				C87315F62C956A280067CB66 /* FirebaseAuth */,
+				C87315F82C956A280067CB66 /* FirebaseDatabase */,
+				C87315FA2C956A280067CB66 /* FirebaseStorage */,
+			);
+			productName = "Dimension of Ghost";
+			productReference = C87315C62C9545AC0067CB66 /* Dimension of Ghost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C87315D52C9545AD0067CB66 /* Dimension of GhostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87315ED2C9545AD0067CB66 /* Build configuration list for PBXNativeTarget "Dimension of GhostTests" */;
+			buildPhases = (
+				C87315D22C9545AD0067CB66 /* Sources */,
+				C87315D32C9545AD0067CB66 /* Frameworks */,
+				C87315D42C9545AD0067CB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87315D82C9545AD0067CB66 /* PBXTargetDependency */,
+			);
+			name = "Dimension of GhostTests";
+			productName = "Dimension of GhostTests";
+			productReference = C87315D62C9545AD0067CB66 /* Dimension of GhostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C87315DF2C9545AD0067CB66 /* Dimension of GhostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C87315F02C9545AD0067CB66 /* Build configuration list for PBXNativeTarget "Dimension of GhostUITests" */;
+			buildPhases = (
+				C87315DC2C9545AD0067CB66 /* Sources */,
+				C87315DD2C9545AD0067CB66 /* Frameworks */,
+				C87315DE2C9545AD0067CB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87315E22C9545AD0067CB66 /* PBXTargetDependency */,
+			);
+			name = "Dimension of GhostUITests";
+			productName = "Dimension of GhostUITests";
+			productReference = C87315E02C9545AD0067CB66 /* Dimension of GhostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C87315BE2C9545AC0067CB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C87315C52C9545AC0067CB66 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C87315D52C9545AD0067CB66 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C87315C52C9545AC0067CB66;
+					};
+					C87315DF2C9545AD0067CB66 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C87315C52C9545AC0067CB66;
+					};
+				};
+			};
+			buildConfigurationList = C87315C12C9545AC0067CB66 /* Build configuration list for PBXProject "Dimension of Ghost" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C87315BD2C9545AC0067CB66;
+			packageReferences = (
+				C87315F52C9560020067CB66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C87315C72C9545AC0067CB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87315C52C9545AC0067CB66 /* Dimension of Ghost */,
+				C87315D52C9545AD0067CB66 /* Dimension of GhostTests */,
+				C87315DF2C9545AD0067CB66 /* Dimension of GhostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C87315C42C9545AC0067CB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87315D12C9545AD0067CB66 /* Preview Assets.xcassets in Resources */,
+				C87315CE2C9545AD0067CB66 /* Assets.xcassets in Resources */,
+				C87315F42C955AD50067CB66 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87315D42C9545AD0067CB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87315DE2C9545AD0067CB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C87315C22C9545AC0067CB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C831F7452C956BAE0062CC1C /* AppDelegate.swift in Sources */,
+				C831F7472C956C420062CC1C /* RegisterView.swift in Sources */,
+				C831F75A2C956F470062CC1C /* MapView.swift in Sources */,
+				C831F75E2C9570A00062CC1C /* GhostModeView.swift in Sources */,
+				C831F74B2C956C690062CC1C /* SessionStore.swift in Sources */,
+				C831F74D2C956CAD0062CC1C /* LocationManager.swift in Sources */,
+				C831F75C2C9570720062CC1C /* RealModeView.swift in Sources */,
+				C87315CC2C9545AC0067CB66 /* ContentView.swift in Sources */,
+				C831F7492C956C550062CC1C /* LoginView.swift in Sources */,
+				C87315CA2C9545AC0067CB66 /* Dimension_of_GhostApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87315D22C9545AD0067CB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87315DB2C9545AD0067CB66 /* Dimension_of_GhostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C87315DC2C9545AD0067CB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87315E72C9545AD0067CB66 /* Dimension_of_GhostUITestsLaunchTests.swift in Sources */,
+				C87315E52C9545AD0067CB66 /* Dimension_of_GhostUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C87315D82C9545AD0067CB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87315C52C9545AC0067CB66 /* Dimension of Ghost */;
+			targetProxy = C87315D72C9545AD0067CB66 /* PBXContainerItemProxy */;
+		};
+		C87315E22C9545AD0067CB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C87315C52C9545AC0067CB66 /* Dimension of Ghost */;
+			targetProxy = C87315E12C9545AD0067CB66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C87315E82C9545AD0067CB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C87315E92C9545AD0067CB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C87315EB2C9545AD0067CB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dimension of Ghost/Preview Content\"";
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "このアプリはあなたの位置情報を使用して、他のユーザーとの位置情報共有を可能にします。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-Ghost";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C87315EC2C9545AD0067CB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dimension of Ghost/Preview Content\"";
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "このアプリはあなたの位置情報を使用して、他のユーザーとの位置情報共有を可能にします。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-Ghost";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C87315EE2C9545AD0067CB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-GhostTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dimension of Ghost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dimension of Ghost";
+			};
+			name = Debug;
+		};
+		C87315EF2C9545AD0067CB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-GhostTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dimension of Ghost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dimension of Ghost";
+			};
+			name = Release;
+		};
+		C87315F12C9545AD0067CB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-GhostUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dimension of Ghost";
+			};
+			name = Debug;
+		};
+		C87315F22C9545AD0067CB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Z2N5X2Z6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cloud-project.Dimension-of-GhostUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dimension of Ghost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C87315C12C9545AC0067CB66 /* Build configuration list for PBXProject "Dimension of Ghost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87315E82C9545AD0067CB66 /* Debug */,
+				C87315E92C9545AD0067CB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87315EA2C9545AD0067CB66 /* Build configuration list for PBXNativeTarget "Dimension of Ghost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87315EB2C9545AD0067CB66 /* Debug */,
+				C87315EC2C9545AD0067CB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87315ED2C9545AD0067CB66 /* Build configuration list for PBXNativeTarget "Dimension of GhostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87315EE2C9545AD0067CB66 /* Debug */,
+				C87315EF2C9545AD0067CB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C87315F02C9545AD0067CB66 /* Build configuration list for PBXNativeTarget "Dimension of GhostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C87315F12C9545AD0067CB66 /* Debug */,
+				C87315F22C9545AD0067CB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C87315F52C9560020067CB66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C87315F62C956A280067CB66 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C87315F52C9560020067CB66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C87315F82C956A280067CB66 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C87315F52C9560020067CB66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C87315FA2C956A280067CB66 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C87315F52C9560020067CB66 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C87315BE2C9545AC0067CB66 /* Project object */;
+}
